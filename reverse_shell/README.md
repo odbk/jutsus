@@ -4,6 +4,8 @@
 El archivo [reverse_shell.md](https://github.com/odbk/jutsus/blob/master/reverse_shell/reverse_shell.md) contiene one-liners para copiado rápido 
 
 
+
+
 ## GENERATOR
 Con el puedes usar cualquiera de las reverse_shell provistas en reverse_shell.md para generar un archivo con los datos de conexión
 hacia tu equipo.
