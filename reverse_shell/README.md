@@ -7,7 +7,8 @@ El archivo reverse_shell.md contiene one-liners para copiado rápido
 Con el puedes usar cualquiera de las reverse_shell provistas en reverse_shell.md para generar un archivo con los datos de conexión
 hacia tu equipo.
 
-USAGE:
+USO:
+
 ./generator.sh -i IP -p PUERTO -s SHELL_A_USAR -o ARCHIVO_DE_SALIDA
 
 ./generator.sh -i 10.10.10.1 -p 1234 -s py1l1.py -o out.py
