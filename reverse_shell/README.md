@@ -9,6 +9,7 @@ hacia tu equipo.
 
 USAGE:
 ./generator.sh -i IP -p PUERTO -s SHELL_A_USAR -o ARCHIVO_DE_SALIDA
+
 ./generator.sh -i 10.10.10.1 -p 1234 -s py1l1.py -o out.py
 
 *El nombre de shell puede tomarse de la carpeta scripts o bien de reverse_shell.md justo antes del código
