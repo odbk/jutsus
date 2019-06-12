@@ -5,6 +5,7 @@ Windows
 - Listar grupos para ver la posibilidad de escalar mediante ellos o directamente si se pertenece a administrators
 - Listar Servicios en busca de unquoted o servicios en los que los ejecutables de carga puedan ser suplantados
 - Listar claves de arranque en el registro para ver posibilidad de suplantar ejecutables
+- DLL Hijacking
 - Buscar aplicaciones y versiones para ver la posibilidad de aplicar algún exploit
 - Buscar archivos de configuración por si la clave de administrador es la misma que la de algún servicio/aplicación
 - Probar acceso a SAM para crackear hashes
