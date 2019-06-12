@@ -14,6 +14,14 @@ Windows
 
 
 
+
+
+
+
+
+
+
+
 Privesc Windows:
 
 - frizb/Windows-Privilege-Escalation - https://github.com/frizb/Windows-Privilege-Escalation
