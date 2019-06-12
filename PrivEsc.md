@@ -16,7 +16,7 @@ Windows
 
 
 Privesc Windows:
-
+--
 - frizb/Windows-Privilege-Escalation - https://github.com/frizb/Windows-Privilege-Escalation
 - lamontns/pentest - https://github.com/lamontns/pentest/blob/master/privilege-escalation/windows-privilege-escalation.md
 - Notes on Windows Privilege Escalation - http://memorycorruption.org/windows/2018/07/29/Notes-On-Windows-Privilege-Escalation.html
@@ -34,7 +34,7 @@ Privesc Windows:
 
 
 Privesc Linux:
-
+--
 - A guide to Linux Privilege Escalation - Payatu https://payatu.com/guide-linux-privilege-escalation/#
 - Basic Linux Privilege Escalation - g0tmi1k : https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
 - Linux PrivEsc Private-i - https://liberty-shell.com/sec/2018/06/27/private-i/
