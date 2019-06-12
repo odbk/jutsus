@@ -11,15 +11,7 @@ Windows
 - Intentar algún relay contra algún servicio que pueda estar corriendo con una cuenta privilegiada
 
 
-
-
-
-
-
-
-
-
-
+<br/><br/><br/><br/><br/><br/>
 
 
 Privesc Windows:
